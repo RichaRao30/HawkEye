@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#b20000">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:paddingTop="100dp"
+        android:textStyle="italic"
+        android:textColor="@color/cardview_light_background"
+        android:fontFamily="@font/bangers"
+        android:textSize="30dp"
+        android:text="Monitoring Dashboard"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="23dp"
+        android:paddingTop="10dp"
+        android:text="For Vodafone-Idea Operations"
+        android:textColor="@color/cardview_light_background"
+        android:fontFamily="@font/southeast"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>

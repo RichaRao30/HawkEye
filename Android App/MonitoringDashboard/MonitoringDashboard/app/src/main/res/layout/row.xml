@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/cardView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="#fff"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Date Time"
+            android:fontFamily="@font/nimbusroman"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nimbusroman"
+            android:layout_below="@+id/time"
+            android:text="Today"
+            android:id="@+id/today"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nimbusroman"
+            android:layout_below="@+id/today"
+            android:text="LastWeek"
+            android:id="@+id/lastweek"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nimbusroman"
+            android:layout_below="@+id/lastweek"
+            android:text="Difference"
+            android:id="@+id/diff"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nimbusroman"
+            android:layout_below="@+id/diff"
+            android:text="Difference Percentage"
+            android:id="@+id/diffprct"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
